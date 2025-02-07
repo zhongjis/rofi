@@ -11,12 +11,9 @@
 ## style-6     style-7     style-8     style-9     style-10
 
 dir="$HOME/.config/rofi/launchers/type-7"
-theme='style-1'
+theme='style-7'
 
 ## Run
-
-#!/usr/bin/env bash
-
 if pgrep -x "rofi" >/dev/null; then
   # Rofi is running, kill it
   pkill rofi
